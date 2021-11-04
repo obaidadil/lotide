@@ -1,8 +1,7 @@
-const assertEqual = function(actual, expected) {
-  return actual === expected ? `🟩 🟩 🟩 Assertion Passed: ${actual} === ${expected}` : `🟥 🟥 🟥 Assertion Failed: ${actual} !== ${expected}`;
-};
+const assertEqual = require('./assertEqual');
 
 //main function will return the first item in an array
+
 const head = function(array) {
   return array[0];
 };
